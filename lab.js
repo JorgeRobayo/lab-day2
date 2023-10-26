@@ -158,17 +158,34 @@ of the array rather than counting it and hard coding it) - Thought question: did
 //"...human...why you taking pictures of me?...", "...the catnip made me do it...", 
 //or "...why does the red dot always get away..." at random.
 
-let messages = [
-    "...human...why you taking pictures of me?...", 
-    "...the catnip made me do it...", 
-    "...why does the red dot always get away..."
-]
+// let messages = [
+//     "...human...why you taking pictures of me?...", 
+//     "...the catnip made me do it...", 
+//     "...why does the red dot always get away..."
+// ]
 
-for(let i = 1; i <= 20; i++){
-    if(i % 2 === 0){
-        console.log(messages[Math.floor(Math.random() * messages.length)])
-    }
-    else{
-        console.log(i + " Love me, pet me! HSSSSSS!")
-    }
-}
+// for(let i = 1; i <= 20; i++){
+//     if(i % 2 === 0){
+//         console.log(messages[Math.floor(Math.random() * messages.length)])
+//     }
+//     else{
+//         console.log(i + " Love me, pet me! HSSSSSS!")
+//     }
+// }
+
+//==============================================================================
+
+//Find the Median
+
+//Find the median number in the following nums array, then console.log that number.
+
+// const nums = [14,11,16,15,13,16,15,17,19,11,12,14,19,11,15,17,11,18,12,17,12,71,18,15,12];
+
+// nums.sort()
+// console.log(nums)
+
+// let median = Math.floor(nums.length / 2)
+
+// console.log(nums[median])
+
+//=========================================================================================
